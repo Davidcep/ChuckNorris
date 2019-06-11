@@ -1,10 +1,10 @@
 # ChuckNorris
 Connect's to the Chuck Norris Api and get random jokes.
 
-# Learn
+## Learn
 - ViewModel
+- Dagger2
 
-# Tools
+## Tools
 - Retrofit
 - RxJava2
-- Dagger2
