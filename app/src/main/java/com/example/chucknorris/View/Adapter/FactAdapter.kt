@@ -1,10 +1,9 @@
-package com.example.chucknorris.Adapter
+package com.example.chucknorris.View.Adapter
 
-import android.arch.lifecycle.LiveData
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.example.chucknorris.Data.Fact
+import com.example.chucknorris.Service.Model.Entity.Fact
 import com.squareup.picasso.Picasso
 
 class FactAdapter(var data: MutableList<Fact>?): RecyclerView.Adapter<FactViewHolder>() {

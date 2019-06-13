@@ -1,19 +1,15 @@
-package com.example.chucknorris.ViewModels
+package com.example.chucknorris.ViewModel
 
-import android.arch.lifecycle.LiveData
 import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.ViewModel
 import android.util.Log
-import com.example.chucknorris.Data.Fact
-import com.example.chucknorris.Data.FactRepository
+import com.example.chucknorris.Service.Model.Entity.Fact
+import com.example.chucknorris.Service.Model.Repository.FactRepository
 import io.reactivex.SingleObserver
-import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
 
 
 class FactViewModel : ViewModel() {
-
-    //val sche = AndroidSchedulers.mainThread()
 
     private val factsLive = MutableLiveData<List<Fact>>()
 

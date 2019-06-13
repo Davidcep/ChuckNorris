@@ -1,16 +1,12 @@
-package com.example.chucknorris.Data
+package com.example.chucknorris.Service.Model.Repository
 
-import android.arch.lifecycle.LiveData
-import android.util.Log
-import com.example.chucknorris.Retrofit.ApiFacts
-import com.example.chucknorris.Retrofit.Client
+import com.example.chucknorris.Service.Model.Entity.Fact
+import com.example.chucknorris.Service.Retrofit.ApiFacts
+import com.example.chucknorris.Service.Retrofit.Client
 import io.reactivex.Observable
-import io.reactivex.Observer
 import io.reactivex.Single
-import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
 import retrofit2.Retrofit
-import kotlin.concurrent.thread
 
 class FactRepository {
 

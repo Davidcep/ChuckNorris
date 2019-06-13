@@ -1,4 +1,4 @@
-package com.example.chucknorris.Data
+package com.example.chucknorris.Service.Model.Entity
 
 import com.google.gson.annotations.SerializedName
 
