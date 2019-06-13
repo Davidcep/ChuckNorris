@@ -1,6 +1,6 @@
 package com.example.chucknorris.Retrofit
 
-import com.example.chucknorris.Model.Fact
+import com.example.chucknorris.Data.Fact
 import io.reactivex.Observable
 import retrofit2.http.GET
 
