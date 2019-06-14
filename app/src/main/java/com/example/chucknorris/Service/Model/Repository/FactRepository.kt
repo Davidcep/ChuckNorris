@@ -7,12 +7,14 @@ import io.reactivex.Observable
 import io.reactivex.Single
 import io.reactivex.schedulers.Schedulers
 import retrofit2.Retrofit
+import javax.inject.Inject
 
 class FactRepository {
 
     companion object{
-
         fun getObserver(): Single<List<Fact>> {
+
+
             //Init API
             var retro: Retrofit = Client.getFacts
             var factApi: ApiFacts = retro.create(ApiFacts::class.java)

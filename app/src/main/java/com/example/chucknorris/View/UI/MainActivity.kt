@@ -10,6 +10,7 @@ import android.support.v7.widget.LinearLayoutManager
 import com.example.chucknorris.View.Adapter.FactAdapter
 import com.example.chucknorris.Service.Model.Entity.Fact
 import com.example.chucknorris.R
+import com.example.chucknorris.Service.Injector.NetworkComponent
 import com.example.chucknorris.ViewModel.FactViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
